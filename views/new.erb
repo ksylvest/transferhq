@@ -1,0 +1,21 @@
+<form action="/" enctype="multipart/form-data" method="post">
+  
+  <div class="input"> 
+    <label for="key">Path:</label> 
+    <div class="text"><input id="path" name="path" type="text" /></div> 
+    <div class="hint">A path with optional identifier and extension (/users/avatar/:identifier:extension).</div> 
+  </div>
+  
+  <div class="input"> 
+    <label for="file">File:</label> 
+    <div class="file"> 
+      <input class="uploader" id="file" name="file" type="file" /> 
+    </div> 
+    <div class="hint">Any format is supported.</div> 
+  </div> 
+  
+  <div class="button"> 
+    <input id="submit" name="commit" type="submit" value="Save" />
+  </div> 
+  
+</form>

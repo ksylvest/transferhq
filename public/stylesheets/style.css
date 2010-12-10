@@ -1,0 +1,281 @@
+
+/* main */
+
+html, body
+{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body, p, h1, h2, h3, h4, h5, h6
+{
+  font-family: "Lucida Grande", "Tahoma", "Helvetica", "Verdana", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: normal;
+}
+
+html, body, p
+{
+  color: #444444;
+}
+
+h1, h2, h3, h4, h5 h6
+{
+  color: #222222;
+}
+
+a
+{
+  color: #336699;
+}
+
+img
+{
+  border: none;
+}
+
+a
+{
+  outline: none;
+}
+
+/* layout */
+
+#ribbon
+{
+  position: absolute; 
+  top: 0; left: 0;
+}
+
+#main
+{
+  height: 100%;
+  height: auto !important;
+  min-height: 100%;
+  min-width: 960px;
+  background-image: url(/images/layout/main.png);
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#header
+{
+  overflow: auto;
+  color: #222222;
+  text-shadow: #448866 1px 1px 1px;
+  padding: 20px 0px;
+  min-width: 960px;
+  min-height: 60px;
+  background-color: #226644;
+  background-image: url(/images/layout/header.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+#footer
+{
+  overflow: auto;
+  color: #FFFFFF;
+  text-shadow: #222222 -1px -1px 1px;
+  padding: 20px 0px;
+  min-width: 960px;
+  min-height: 60px;
+  background-color: #222222;
+  background-image: url(/images/layout/footer.png);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+#content
+{
+  color: #444;
+  padding: 40px 0px;
+  min-width: 960px;
+  background-color: #FFFFFF;
+}
+
+#header #logo
+{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  float: left;
+}
+
+#header #navigation
+{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 60px;
+  float: right;
+}
+
+#footer #links
+{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+}
+
+#footer #copyright
+{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+#header a
+{
+  color: inherit;
+  text-decoration: none;
+  padding: 8px;
+}
+
+#footer a
+{
+  color: inherit;
+  text-decoration: none;
+  padding: 8px;
+}
+
+/* grid */
+
+.wrapper
+{
+  width: 960px;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.container 
+{
+  width: 960px;
+  margin-left : auto;
+  margin-right: auto;
+}
+
+.grid-01, .grid-02, .grid-03, .grid-04, .grid-05, .grid-06, .grid-07, .grid-08, .grid-09, .grid-10, .grid-11, .grid-12 
+{
+  float: left;
+  display: inline;
+  position: relative;
+  margin-left:  10px;
+  margin-right: 10px;
+}
+
+.alpha { margin-left:  0px; }
+.omega { margin-right: 0px; }
+
+.grid-01 { width:  60px; }
+.grid-02 { width: 140px; }
+.grid-03 { width: 220px; }
+.grid-04 { width: 300px; }
+.grid-05 { width: 380px; }
+.grid-06 { width: 460px; }
+.grid-07 { width: 540px; }
+.grid-08 { width: 620px; }
+.grid-09 { width: 700px; }
+.grid-10 { width: 780px; }
+.grid-11 { width: 860px; }
+.grid-12 { width: 940px; }
+
+.prefix-01 { padding-left:   80px; }
+.suffix-01 { padding-right:  80px; }
+.prefix-02 { padding-left:  160px; }
+.suffix-02 { padding-right: 160px; }
+.prefix-03 { padding-left:  240px; }
+.suffix-03 { padding-right: 240px; }
+.prefix-04 { padding-left:  320px; }
+.suffix-04 { padding-right: 320px; }
+.prefix-05 { padding-left:  400px; }
+.suffix-05 { padding-right: 400px; }
+.prefix-06 { padding-left:  480px; }
+.suffix-06 { padding-right: 480px; }
+.prefix-07 { padding-left:  560px; }
+.suffix-07 { padding-right: 560px; }
+.prefix-08 { padding-left:  640px; }
+.suffix-08 { padding-right: 640px; }
+.prefix-09 { padding-left:  720px; }
+.suffix-09 { padding-right: 720px; }
+.prefix-10 { padding-left:  800px; }
+.suffix-10 { padding-right: 800px; }
+.prefix-11 { padding-left:  880px; }
+.suffix-11 { padding-right: 880px; }
+
+.clear
+{
+  clear: both;
+	overflow: hidden;
+	visibility: hidden;
+  height: 0px; 
+  width: 0px;
+}
+
+/* form */
+
+form .input
+{
+  margin: 16px 0px;
+}
+
+form .button
+{
+  margin: 16px 0px;
+}
+
+form .error
+{
+  margin: 16px 0px;
+}
+
+form .hint
+{
+  display: block;
+  color: #888;
+  margin: 4px 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+form .error
+{
+  display: block;
+  color: #800;
+  margin: 4px 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+form label
+{
+  color: #444;
+  margin: 4px 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+form input[type=text],
+form input[type=password],
+form textarea
+{
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.input .text
+{
+  padding: 0px 20px 0px 0px;
+}
+
+.input .file
+{
+  padding: 0px 0px 0px 0px;
+}

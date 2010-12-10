@@ -1,0 +1,3 @@
+= Transfer HQ
+
+Transfer HQ is a Sinatra application for providing file transfers directly to the cloud. The applications supports uploading a file using a HTML or Flash uploader (even across domains) and will take care of copying into the cloud.
